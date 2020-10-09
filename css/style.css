@@ -6,7 +6,7 @@ p {
       text-align: center;
 }
 .btn {
-      margin-top: 80px;
+      margin-top: 50px;
       background-image: url(../img/BtnImg.png);
       height: 184px;
       width: 184px;
@@ -35,7 +35,7 @@ p {
       list-style-type: none;
       padding: 10px;
       margin: 0;
-      width: 50%;
+      width: 100%;
       outline: none;
       color: white;
       font-family: 'Roboto', sans-serif;
@@ -44,4 +44,28 @@ p {
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
+}
+#discharge {
+      font-size: 20px;
+      border: none;
+      border-top: none;
+      background-color: #3fc909;
+      padding: 10px;
+      margin: 0;
+      width: 100%;
+      outline: none;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+	text-align-last: center;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+}
+#discharge:hover {
+      transition: ease 0.1s;
+      background-color: #3fbe0c;
+}
+#discharge:active {
+      background-color: #3db40e;
 }

@@ -6,3 +6,9 @@ document.querySelector(".btn").onclick = function() {
 
       document.querySelector(".money").innerHTML = money + "₽";
 }
+
+document.querySelector("#discharge").onclick = function() {
+      money = 0;
+
+      document.querySelector(".money").innerHTML = money + "₽";
+}
