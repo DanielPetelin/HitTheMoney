@@ -1,17 +1,17 @@
 p {
       font-family: 'Roboto', sans-serif;
       position: relative;
-      font-size: 70px;
+      font-size: 65px;
       color: white;
       text-align: center;
 }
 .btn {
       margin-top: 50px;
-      height: 184px;
-      width: 184px;
+      height: 180px;
+      width: 180px;
       border:none;
       outline: none;
-      margin-bottom: 90px;
+      margin-bottom: 10px;
 }
 input:active, :hover, :focus {
       outline: 0 none;

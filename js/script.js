@@ -24,7 +24,6 @@ function getValue() {
             document.body.style.background = "#4bdf11";
             document.getElementById("themeCostomize").style.background = "#3fc909";
             document.getElementById("discharge").style.background = "#3fc909";
-            btnStyle.src = "img/BtnGreenTheme.png";
       }
 
       if (theme == "orange")
@@ -32,6 +31,5 @@ function getValue() {
             document.body.style.background = "#ff7200";
             document.getElementById("themeCostomize").style.background = "#e25a00";
             document.getElementById("discharge").style.background = "#e25a00";
-            btnStyle.src = "img/BtnOrangeTheme.png";
       }
 }
