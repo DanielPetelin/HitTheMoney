@@ -7,21 +7,20 @@ p {
 }
 .btn {
       margin-top: 50px;
-      background-image: url(../img/BtnGreenTheme.png);
       height: 184px;
       width: 184px;
       border:none;
       outline: none;
       margin-bottom: 90px;
 }
-.btnOrange {
-      margin-top: 50px;
-      background-image: url(../img/BtnOrangeTheme.png);
-      height: 184px;
-      width: 184px;
-      border:none;
-      outline: none;
-      margin-bottom: 90px;
+input:active, :hover, :focus {
+      outline: 0 none;
+      outline-offset: 0 none;
+      user-select: 0 none;
+      user-select: none;
+}
+.img {
+      text-align: center;
 }
 .canvas {
       position: absolute;
@@ -77,4 +76,7 @@ p {
 }
 #discharge:active {
       background-color: #3db40e;
+}
+*:focus {
+      outline: none;
 }
