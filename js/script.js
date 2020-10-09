@@ -12,3 +12,19 @@ document.querySelector("#discharge").onclick = function() {
 
       document.querySelector(".money").innerHTML = money + "₽";
 }
+
+function getValue() {
+      let theme = document.getElementById("themeCostomize").value;
+      
+      console.log(theme);
+
+      if (theme == "green")
+      {
+            document.body.style.background = "#4bdf11";
+      }
+
+      if (theme == "orange")
+      {
+            document.body.style.background = "#ff7200";
+      }
+}
