@@ -21,3 +21,27 @@ p {
       margin-right: -50%;
       transform: translate(-50%, -50%)
 }
+.header {
+      width: auto;
+      height: 50px;
+      background-color: #4bdf11;
+      margin-bottom: 0px;
+}
+#themeCostomize {
+      font-size: 20px;
+      border: none;
+      border-top: none;
+      background: #3fc909;
+      list-style-type: none;
+      padding: 10px;
+      margin: 0;
+      width: 50%;
+      outline: none;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+	text-align-last: center;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+}
